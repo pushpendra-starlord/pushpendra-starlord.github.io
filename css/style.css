@@ -14,7 +14,7 @@
     --fw-bold: 900;
     
     --clr-light: #fff;
-    --clr-dark: #303030;
+    --clr-dark: #242424;
     --clr-accent: #16e0bd;
     
     --fs-h1: 3rem;
@@ -37,10 +37,10 @@
 
 /* General styles */
 
-/* endable this to add smooth scrolling */
-/* html {
+/* smooth scrolling */
+html {
     scroll-behavior: smooth;
-} */
+}
 
 
 body {
@@ -297,7 +297,7 @@ header {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
-    /* background-blend-mode: multiply; */
+    background-blend-mode: hard-light;
     color: var(--clr-light);
     text-align: center;
 }
@@ -397,6 +397,7 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    margin: 5px;
 }
 
 .portfolio__img {
@@ -423,9 +424,14 @@ header {
     background: #111;
     color: var(--clr-accent);
     text-align: center;
-    padding: 2.5em 0;
+    padding: 1.0em 0 2.5em 0;
     font-size: var(--fs-h3);
 
+}
+
+.footer__subtitle {
+    color: #fff;
+    font-weight: var(--fw-reg);
 }
 
 .footer a { 
