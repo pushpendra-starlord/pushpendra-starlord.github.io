@@ -138,11 +138,11 @@ h3 { font-size: var(--fs-h3) }
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 0.75em;
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 160px;
 }
 
 .nav {
@@ -386,7 +386,8 @@ header {
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-align: center;    
+    text-align: center; 
+    padding: 50px;   
 }
 
 .portfolio {
@@ -397,7 +398,8 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
-    margin: 5px;
+    margin: 10px;
+    border-radius: 7px;
 }
 
 .portfolio__img {
