@@ -385,6 +385,7 @@ header {
 @media (min-width: 400px) and (max-width: 600px) {
     .about-me__img {
         position:fixed;
+        visibility: hidden;
     }
 }
 
